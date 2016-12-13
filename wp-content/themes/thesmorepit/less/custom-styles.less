@@ -97,48 +97,49 @@ nav {
 }
 
 /*-----------------------------------------*/
-
-.menu {
-	width: 240px;
-	height: 100%;
-	position: fixed;
-	left: -240px;
-	z-index: 100;
-	transition: all .3s ease-in-out;
-	background: @brown;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-ms-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	ul {
-		background: @brown;
+nav.nav {
+	.menu {
+		width: 240px;
 		height: 100%;
+		position: fixed;
+		left: -240px;
+		z-index: 100;
+		transition: all .3s ease-in-out;
+		background: @brown;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		ul {
+			background: @brown;
+			height: 100%;
+		}
 	}
-}
-.menu-icon {
-	padding: 0;
-    height: 54px;
-    width: 54px;
-    background: #fff;
-    color: #5c3f22;
-    cursor: pointer;
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    font-size: 40px;
-    z-index: 100;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-ms-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-}
-#menuToggle { display: none; }
+	.menu-icon {
+		padding: 0;
+	    height: 54px;
+	    width: 54px;
+	    background: #fff;
+	    color: #5c3f22;
+	    cursor: pointer;
+	    position: fixed;
+	    left: 20px;
+	    top: 20px;
+	    font-size: 40px;
+	    z-index: 100;
+		transition: all .3s ease-in-out;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+	#menuToggle { display: none; }
 
-#menuToggle:checked ~ .menu { position: fixed; left: 0; }
-#menuToggle:checked ~ .menu-icon { position: fixed; left: 260px; }
+	#menuToggle:checked ~ .menu { position: fixed; left: 0; }
+	#menuToggle:checked ~ .menu-icon { position: fixed; left: 260px; }
+}
 
 //
 // Typography

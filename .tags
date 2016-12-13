@@ -256,3 +256,156 @@ image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5bla
 networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/single.php	/^				$networks = array($/;"	variable	line:30
 image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/page.php	/^				$image_args = array($/;"	variable	line:8
 image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/template-wide.php	/^				$image_args = array($/;"	variable	line:9
+// Place all of your custom styles in here. This stylesheet is loaded last	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^\/\/ Place all of your custom styles in here. This stylesheet is loaded last,$/;"	function	line:3
+body	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^body {$/;"	function	line:8
+.header	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.header {$/;"	function	line:20
+.navbar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.navbar {$/;"	function	line:23
+.navbar-toggle + .nav-collapse	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.navbar-toggle + .nav-collapse {$/;"	function	line:25
+.bypostauthor > article .fn:before	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.bypostauthor > article .fn:before {$/;"	function	line:33
+.screen	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.screen{$/;"	function	line:39
+.screen:after	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.screen:after {$/;"	function	line:42
+nav	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^nav {$/;"	function	line:64
+ul	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	ul {$/;"	function	line:67
+li a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	li a {$/;"	function	line:72
+li a:hover	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	li a:hover {$/;"	function	line:86
+nav.nav	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^nav.nav {$/;"	function	line:100
+.menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.menu {$/;"	function	line:101
+ul	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		ul {$/;"	function	line:113
+.menu-icon	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.menu-icon {$/;"	function	line:118
+#menuToggle	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	#menuToggle { display: none; }$/;"	function	line:138
+#menuToggle:checked ~ .menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	#menuToggle:checked ~ .menu { position: fixed; left: 0; }$/;"	function	line:140
+#menuToggle:checked ~ .menu-icon	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	#menuToggle:checked ~ .menu-icon { position: fixed; left: 260px; }$/;"	function	line:141
+h1	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^h1 {$/;"	function	line:147
+.edit-btn	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.edit-btn {$/;"	function	line:157
+blockquote	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^blockquote {$/;"	function	line:160
+table.calendar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^table.calendar {$/;"	function	line:178
+div.day-number	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^div.day-number	 {$/;"	function	line:182
+td.calendar-day, td.calendar-day-np	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^td.calendar-day, td.calendar-day-np {$/;"	function	line:193
+td.calendar-day-head	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^td.calendar-day-head {$/;"	function	line:199
+.light_background	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.light_background {$/;"	function	line:213
+.brown-background	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.brown-background {$/;"	function	line:220
+.red_background	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.red_background {$/;"	function	line:226
+.dark-background	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.dark-background {$/;"	function	line:232
+.container	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.container {$/;"	function	line:238
+img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	img {$/;"	function	line:241
+.btn-sort	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.btn-sort {$/;"	function	line:246
+.btn-sort:hover, .btn-sort:active, .btn-sort:focus	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.btn-sort:hover, .btn-sort:active, .btn-sort:focus{$/;"	function	line:252
+.menu_items	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.menu_items {$/;"	function	line:255
+.menu-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.menu-item {$/;"	function	line:256
+.name	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.name {$/;"	function	line:263
+.desc	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.desc {$/;"	function	line:267
+.cost	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.cost {$/;"	function	line:273
+.cost:before	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.cost:before {$/;"	function	line:277
+.logo	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.logo {$/;"	function	line:284
+img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	img {$/;"	function	line:288
+.social_icons	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.social_icons {$/;"	function	line:293
+.mapi-social-links a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.mapi-social-links a {$/;"	function	line:296
+.mapi-social-links a.facebook	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.mapi-social-links a.facebook {background: @brown;}$/;"	function	line:301
+.mapi-social-links a.twitter	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.mapi-social-links a.twitter {background: @brown;}$/;"	function	line:302
+.mapi-social-links a.instagram	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.mapi-social-links a.instagram {background: @brown;}$/;"	function	line:303
+.acf-map	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.acf-map {$/;"	function	line:305
+.acf-map img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.acf-map img {$/;"	function	line:311
+.archive	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.archive {$/;"	function	line:319
+article	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^article {$/;"	function	line:327
+.post_details	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.post_details {$/;"	function	line:328
+.date, .cats	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.date, .cats {$/;"	function	line:330
+header, .article-header	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	header, .article-header {$/;"	function	line:336
+&.post-header	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.post-header {$/;"	function	line:339
+&.page-header	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.page-header {$/;"	function	line:343
+.entry-title	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.entry-title {$/;"	function	line:347
+.byline	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.byline {$/;"	function	line:351
+time	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			time {$/;"	function	line:356
+.amp	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.amp {$/;"	function	line:361
+.breadcrumb	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.breadcrumb {$/;"	function	line:366
+.current_item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			.current_item {$/;"	function	line:368
+section.entry-content	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	section.entry-content {$/;"	function	line:376
+dd	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		dd {$/;"	function	line:378
+img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		img {$/;"	function	line:385
+.wp-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.wp-caption {$/;"	function	line:390
+img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			img {$/;"	function	line:395
+p.wp-caption-text	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			p.wp-caption-text {$/;"	function	line:400
+video, object	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		video, object {$/;"	function	line:408
+pre	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		pre {$/;"	function	line:413
+footer, .article-footer	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	footer, .article-footer {$/;"	function	line:421
+.tags	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.tags {$/;"	function	line:423
+a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			a {$/;"	function	line:427
+.mapi-edit-link	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.mapi-edit-link {$/;"	function	line:434
+footer	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^footer {$/;"	function	line:441
+a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	a {$/;"	function	line:443
+.copyright	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.copyright {$/;"	function	line:448
+.alignleft, img.alignleft	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.alignleft, img.alignleft {$/;"	function	line:458
+.alignright, img.alignright	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.alignright, img.alignright {$/;"	function	line:463
+.aligncenter, img.aligncenter	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.aligncenter, img.aligncenter {$/;"	function	line:468
+.alignnone, img.alignnone	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.alignnone, img.alignnone {$/;"	function	line:473
+.comments	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.comments {$/;"	function	line:480
+.comment	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.comment {$/;"	function	line:482
+&.odd	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.odd {$/;"	function	line:485
+img.media-object	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		img.media-object {$/;"	function	line:489
+.comment.depth-2	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.comment.depth-2 {$/;"	function	line:496
+#commentform	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^#commentform {$/;"	function	line:502
+label	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	label {$/;"	function	line:503
+#sidebar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^#sidebar {$/;"	function	line:509
+.widget	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.widget {$/;"	function	line:511
+.widgettitle	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		.widgettitle {$/;"	function	line:515
+ul	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		ul {$/;"	function	line:521
+&:first-child	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&:first-child {$/;"	function	line:525
+&:last-child	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&:last-child {$/;"	function	line:529
+&.widget_categories	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.widget_categories {$/;"	function	line:535
+select	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			select {$/;"	function	line:537
+> ul	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			> ul {$/;"	function	line:541
+li	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^				li {$/;"	function	line:544
+ul.children	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			ul.children {$/;"	function	line:550
+li	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^				li {$/;"	function	line:551
+.badge	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^					.badge {$/;"	function	line:556
+&.widget_nav_menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.widget_nav_menu {$/;"	function	line:567
+ul.sub-menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			ul.sub-menu {$/;"	function	line:568
+&.textwidget	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		&.textwidget {$/;"	function	line:573
+img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			img {$/;"	function	line:574
+.pagination.pagination-centered	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.pagination.pagination-centered {$/;"	function	line:586
+footer, .footer	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^footer, .footer {$/;"	function	line:593
+.footer-nav	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.footer-nav {$/;"	function	line:597
+li > a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		li > a {$/;"	function	line:599
+@media (max-width: @grid-float-breakpoint)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^		@media (max-width: @grid-float-breakpoint) {$/;"	function	line:603
+li	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^			li {$/;"	function	line:605
+.copyright, #credit	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.copyright, #credit {$/;"	function	line:616
+#credit img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	#credit img {$/;"	function	line:622
+#credit img:hover	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	#credit img:hover {$/;"	function	line:626
+.btn a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.btn a {$/;"	function	line:634
+.btn.btn-primary a	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.btn.btn-primary a {$/;"	function	line:640
+span.gc-cs-link, a[href^="tel:"]	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^span.gc-cs-link, a[href^="tel:"] {$/;"	function	line:645
+.gallery	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery {$/;"	function	line:656
+.gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-item {$/;"	function	line:660
+.gallery-columns-1 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-1 .gallery-item {$/;"	function	line:667
+.gallery-columns-2 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-2 .gallery-item {$/;"	function	line:671
+.gallery-columns-3 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-3 .gallery-item {$/;"	function	line:677
+.gallery-columns-4 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-4 .gallery-item {$/;"	function	line:683
+.gallery-columns-5 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-5 .gallery-item {$/;"	function	line:689
+.gallery-columns-6 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-6 .gallery-item {$/;"	function	line:695
+.gallery-columns-7 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-7 .gallery-item {$/;"	function	line:701
+.gallery-columns-8 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-8 .gallery-item {$/;"	function	line:707
+.gallery-columns-9 .gallery-item	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-9 .gallery-item {$/;"	function	line:713
+.gallery-columns-1 .gallery-item:nth-of-type(1n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-1 .gallery-item:nth-of-type(1n),$/;"	function	line:719
+.gallery-columns-2 .gallery-item:nth-of-type(2n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-2 .gallery-item:nth-of-type(2n),$/;"	function	line:720
+.gallery-columns-3 .gallery-item:nth-of-type(3n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-3 .gallery-item:nth-of-type(3n),$/;"	function	line:721
+.gallery-columns-4 .gallery-item:nth-of-type(4n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-4 .gallery-item:nth-of-type(4n),$/;"	function	line:722
+.gallery-columns-5 .gallery-item:nth-of-type(5n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-5 .gallery-item:nth-of-type(5n),$/;"	function	line:723
+.gallery-columns-6 .gallery-item:nth-of-type(6n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-6 .gallery-item:nth-of-type(6n),$/;"	function	line:724
+.gallery-columns-7 .gallery-item:nth-of-type(7n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-7 .gallery-item:nth-of-type(7n),$/;"	function	line:725
+.gallery-columns-8 .gallery-item:nth-of-type(8n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-8 .gallery-item:nth-of-type(8n),$/;"	function	line:726
+.gallery-columns-9 .gallery-item:nth-of-type(9n)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-9 .gallery-item:nth-of-type(9n) {$/;"	function	line:727
+.gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1),$/;"	function	line:731
+.gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1),$/;"	function	line:732
+.gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1),$/;"	function	line:733
+.gallery-columns-3.gallery-size-thumbnail figure.gallery-item:nth-of-type(3n+1)	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-3.gallery-size-thumbnail figure.gallery-item:nth-of-type(3n+1) {$/;"	function	line:734
+.gallery-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-caption {$/;"	function	line:738
+.gallery-caption:before	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-caption:before {$/;"	function	line:757
+.gallery-item:hover .gallery-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-item:hover .gallery-caption {$/;"	function	line:767
+.gallery-columns-7 .gallery-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-7 .gallery-caption,$/;"	function	line:771
+.gallery-columns-8 .gallery-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-8 .gallery-caption,$/;"	function	line:772
+.gallery-columns-9 .gallery-caption	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.gallery-columns-9 .gallery-caption {$/;"	function	line:773
+.sticky	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.sticky {$/;"	function	line:777
+.entry-date, .byline	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.entry-date, .byline {$/;"	function	line:778
+.mapi-featured-img	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.mapi-featured-img {$/;"	function	line:784
+.mapi-fb-posts	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.mapi-fb-posts {$/;"	function	line:788
+.mapi-fb-image	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.mapi-fb-image {$/;"	function	line:792
+.mapi-fb-post	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.mapi-fb-post {$/;"	function	line:798
