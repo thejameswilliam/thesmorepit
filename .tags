@@ -251,3 +251,4 @@ my_acf_init	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5bl
 img_src	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^				$img_src = array($/;"	variable	line:7
 networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^				$networks = array($/;"	variable	line:18
 location	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^			$location = get_field('current_location', 'options');$/;"	variable	line:45
+image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/template-test.php	/^				$image_args = array($/;"	variable	line:4
