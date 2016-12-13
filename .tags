@@ -252,3 +252,7 @@ img_src	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-
 networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^				$networks = array($/;"	variable	line:18
 location	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^			$location = get_field('current_location', 'options');$/;"	variable	line:45
 image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/template-test.php	/^				$image_args = array($/;"	variable	line:9
+image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/single.php	/^			$image_args = array($/;"	variable	line:8
+networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/single.php	/^				$networks = array($/;"	variable	line:30
+image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/page.php	/^				$image_args = array($/;"	variable	line:8
+image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/template-wide.php	/^				$image_args = array($/;"	variable	line:9
