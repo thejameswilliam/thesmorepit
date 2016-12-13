@@ -409,3 +409,44 @@ span.gc-cs-link, a[href^="tel:"]	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-c
 .mapi-fb-posts	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^.mapi-fb-posts {$/;"	function	line:788
 .mapi-fb-image	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.mapi-fb-image {$/;"	function	line:792
 .mapi-fb-post	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/less/custom-styles.less	/^	.mapi-fb-post {$/;"	function	line:798
+content_width	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $content_width = 900;$/;"	variable	line:20
+smore_menu_nav	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function smore_menu_nav()$/;"	function	line:66
+smore_edit_link	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function smore_edit_link() {$/;"	function	line:90
+html5blank_header_scripts	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5blank_header_scripts()$/;"	function	line:96
+html5blank_conditional_scripts	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5blank_conditional_scripts()$/;"	function	line:121
+html5blank_styles	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5blank_styles()$/;"	function	line:130
+register_html5_menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function register_html5_menu()$/;"	function	line:149
+my_wp_nav_menu_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function my_wp_nav_menu_args($args = '')$/;"	function	line:158
+my_css_attributes_filter	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function my_css_attributes_filter($var)$/;"	function	line:165
+remove_category_rel_from_category_list	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function remove_category_rel_from_category_list($thelist)$/;"	function	line:171
+add_slug_to_body_class	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function add_slug_to_body_class($classes)$/;"	function	line:177
+key	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^        $key = array_search('blog', $classes);$/;"	variable	line:181
+my_remove_recent_comments_style	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function my_remove_recent_comments_style()$/;"	function	line:228
+html5wp_pagination	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5wp_pagination()$/;"	function	line:238
+big	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $big = 999999999;$/;"	variable	line:241
+html5wp_index	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5wp_index($length) \/\/ Create 20 Word Callback for Index page Excerpts, call using html5wp_excerpt('html5wp_index');$/;"	function	line:251
+html5wp_excerpt	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5wp_excerpt($length_callback = '', $more_callback = '')$/;"	function	line:258
+more_callback	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5wp_excerpt($length_callback = '', $more_callback = '')$/;"	variable	line:258
+output	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $output = get_the_excerpt();$/;"	variable	line:267
+output	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $output = apply_filters('wptexturize', $output);$/;"	variable	line:268
+output	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $output = apply_filters('convert_chars', $output);$/;"	variable	line:269
+output	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $output = '<p>' . $output . '<\/p>';$/;"	variable	line:270
+html5_blank_view_article	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5_blank_view_article($more)$/;"	function	line:275
+remove_admin_bar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function remove_admin_bar()$/;"	function	line:282
+html5_style_remove	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5_style_remove($tag)$/;"	function	line:288
+remove_thumbnail_dimensions	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function remove_thumbnail_dimensions( $html )$/;"	function	line:294
+html	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $html = preg_replace('\/(width|height)=\\"\\d*\\"\\s\/', "", $html);$/;"	variable	line:296
+html5blankgravatar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5blankgravatar ($avatar_defaults)$/;"	function	line:301
+myavatar	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^    $myavatar = get_template_directory_uri() . '\/img\/gravatar.jpg';$/;"	variable	line:303
+enable_threaded_comments	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function enable_threaded_comments()$/;"	function	line:309
+html5blankcomments	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function html5blankcomments($comment, $args, $depth)$/;"	function	line:319
+tag	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^		$tag = 'div';$/;"	variable	line:325
+add_below	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^		$add_below = 'comment';$/;"	variable	line:326
+tag	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^		$tag = 'li';$/;"	variable	line:328
+add_below	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^		$add_below = 'div-comment';$/;"	variable	line:329
+smore_menu	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function smore_menu() {$/;"	function	line:413
+name	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^        $name = get_sub_field('item_name', 'options');$/;"	variable	line:427
+cost	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^        $cost = get_sub_field('item_cost', 'options');$/;"	variable	line:428
+desc	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^        $desc = get_sub_field('item_description', 'options');$/;"	variable	line:429
+args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^  $args = array($/;"	variable	line:456
+my_acf_init	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function my_acf_init() {$/;"	function	line:466
