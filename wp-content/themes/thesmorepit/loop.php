@@ -4,7 +4,7 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<!-- post thumbnail -->
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-4 col-xs-12">
 			<?php $image_args = array(
 				'w'     => 250,
 				'h'     => 250
@@ -12,7 +12,7 @@
 			mapi_featured_img($image_args); ?>
 		</div>
 		<!-- /post thumbnail -->
-		<div class="col-md-8">
+		<div class="col-md-8 col-md-8 col-sm-8 col-xs-12">
 			<!-- post title -->
 			<h2>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>

@@ -439,7 +439,7 @@ function smore_menu() {
     echo '</div>';
   else :
       echo '<h1>Menu</h1>';
-      echo '<span class="aligncenter">Coming Soon!</span>';
+      echo '<h2 align="center">Coming Soon!</h2>';
   endif;
 
 
