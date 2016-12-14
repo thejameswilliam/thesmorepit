@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 	<main role="main" class="page">
-		<div class="top-logo screen fullheight light_background">
+		<div class="top-logo screen light_background">
 
-			<section class="container col-md-8 col-md-offset-2">
+			<section class="container fullheight col-md-8 col-md-offset-2">
 				<?php
 				$image_args = array(
 					'w'     => 1050,
