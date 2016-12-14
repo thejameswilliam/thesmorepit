@@ -12,7 +12,21 @@
     ); ?>
 
     <a href="<?php echo site_url(); ?>"><img src="<?php echo mapi_thumb($img_src); ?>" alt="The S'more Pit"></a>
-    <?php get_template_part('searchform'); ?>
+    <div class="col-md-12">
+    <!-- search -->
+    <form class="form-inline" method="get" action="<?php echo home_url(); ?>" role="search">
+    	<div class="input-group">
+    		<input class="form-control" type="search" name="s" placeholder="Search here">
+    		<span class="input-group-btn">
+    			<button class="search-submit btn btn-default" type="submit" role="button"><?php _e( 'Search', 'html5blank' ); ?></button>
+    		</span>
+    	</div>
+    </form>
+    </div>
+
+
+
+    <br />
     <?php smore_menu_nav(); ?>
 
   </nav>
