@@ -11,7 +11,6 @@
 				}
 				$(function(){
 				        handleResize();
-
 				        $(window).resize(function(){
 				        handleResize();
 				    });

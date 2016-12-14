@@ -248,9 +248,6 @@ cost	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-sta
 desc	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/functions.php	/^        $desc = get_sub_field('item_description', 'options');$/;"	variable	line:429
 args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/functions.php	/^  $args = array($/;"	variable	line:456
 my_acf_init	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/functions.php	/^function my_acf_init() {$/;"	function	line:466
-img_src	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^				$img_src = array($/;"	variable	line:7
-networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^				$networks = array($/;"	variable	line:18
-location	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^			$location = get_field('current_location', 'options');$/;"	variable	line:45
 image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/template-test.php	/^				$image_args = array($/;"	variable	line:9
 image_args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/single.php	/^			$image_args = array($/;"	variable	line:8
 networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/single.php	/^				$networks = array($/;"	variable	line:30
@@ -450,3 +447,10 @@ cost	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/fu
 desc	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^        $desc = get_sub_field('item_description', 'options');$/;"	variable	line:429
 args	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^  $args = array($/;"	variable	line:456
 my_acf_init	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/functions.php	/^function my_acf_init() {$/;"	function	line:466
+handleResize	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/js/scripts.js	/^				function handleResize() {$/;"	function	line:8
+new_map	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/js/scripts.js	/^				function new_map( $el ) {$/;"	function	line:46
+add_marker	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/js/scripts.js	/^				function add_marker( $marker, map ) {$/;"	function	line:100
+center_map	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/thesmorepit/js/scripts.js	/^				function center_map( map ) {$/;"	function	line:145
+img_src	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^					$img_src = array($/;"	variable	line:8
+networks	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^					$networks = array($/;"	variable	line:16
+location	/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/themes/html5blank-stable/index.php	/^			$location = get_field('current_location', 'options');$/;"	variable	line:36
