@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<main id="main" role="main">
-		<div class="top-logo screen fullheight light_background">
-			<div class="logo col-md-6 col-md-offset-3">
+		<div class="top-logo screen light_background">
+			<div class="logo fullheight col-md-6 col-md-offset-3">
 				<?php
 				$img_src = array(
 					'src' => get_template_directory_uri() . '/img/logo.png',
@@ -24,15 +24,15 @@
 			</div>
 
 		</div>
-		<div class="red_background screen fullheight">
+		<div class="red_background screen">
 
-			<div class="container col-md-8 col-md-offset-2">
+			<div class="container fullheight col-md-8 col-md-offset-2">
 			<blockquote><?php echo get_bloginfo('description'); ?></blockquote>
 			<?php smore_menu(); ?>
 			</div>
 		</div>
-		<div class="brown-background screen fullheight">
-			<div class="container col-md-8 col-md-offset-2">
+		<div class="brown-background screen">
+			<div class="container fullheight col-md-8 col-md-offset-2">
 				<h1>Instagram</h1>
 				<?php echo do_shortcode('[instagram-feed]'); ?>
 			</div>
