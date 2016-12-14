@@ -27,19 +27,13 @@
 		</div>
 		<div class="red_background screen ">
 
-			<div class="container fullheightcol-md-8 col-md-offset-2">
+			<div class="container fullheight col-md-8 col-md-offset-2">
 			<blockquote><?php echo get_bloginfo('description'); ?></blockquote>
 			<?php smore_menu(); ?>
 			</div>
 		</div>
-		<div class="brown-background screen ">
-			<div class="container fullheightcol-md-8 col-md-offset-2">
-				<h1>Instagram</h1>
-				<?php echo do_shortcode('[instagram-feed]'); ?>
-			</div>
-		</div>
-
 		<div class="light-background screen">
+
 			<h1>Today's Location</h1>
 			<p align="center"><a href="/events/">Take a look at our calendar for our next location.</a></p>
 			<?php
@@ -50,6 +44,14 @@
 				</div>
 			<?php endif; ?>
 		</div>
+		<div class="brown-background screen ">
+			<div class="container fullheight col-md-8 col-md-offset-2">
+				<h1>Instagram</h1>
+				<?php echo do_shortcode('[instagram-feed]'); ?>
+			</div>
+		</div>
+
+
 
 
 
