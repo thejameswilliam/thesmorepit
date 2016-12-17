@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</div>
-		<?php if(the_field('content', 'options')) : ?>
+		<?php if(get_field('content', 'options')) : ?>
 		<div class="red-background screen">
 			<div class="container fullheight col-md-8 col-md-offset-2">
 				<?php the_field('content', 'options'); ?>
