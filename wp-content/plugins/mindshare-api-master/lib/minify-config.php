@@ -1,6 +1,6 @@
 <?php
 //###WPM-CACHE-PATH-BEFORE###
-$min_cachePath = "/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/uploads/minify-cache";
+$min_cachePath = "/home/thejameswilliam/public_html/thesmorepit/wp-content/uploads/minify-cache";
 //###WPM-CACHE-PATH-AFTER###
 
 //###WPM-CACHE-AGE-BEFORE###

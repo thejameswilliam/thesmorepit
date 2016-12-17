@@ -1,1 +1,1 @@
-<?php require_once("/Users/James/Dropbox/Sites/jwj_thesmorepit/wp-content/plugins/mindshare-api-master/lib/minify-config.php"); ?>
+<?php require_once("/home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/mindshare-api-master/lib/minify-config.php"); ?>

@@ -1,0 +1,5 @@
+[13-Dec-2016 03:07:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/mindshare-api-master/core/mapi-minify.php:106) in /home/thejameswilliam/public_html/thesmorepit/wp-includes/pluggable.php on line 1179
+[13-Dec-2016 03:55:38 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[13-Dec-2016 03:55:38 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
+[13-Dec-2016 03:55:48 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[13-Dec-2016 03:55:48 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/thejameswilliam/public_html/thesmorepit/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
