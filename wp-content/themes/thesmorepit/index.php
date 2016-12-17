@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 	<main id="main" role="main">
+
+
 		<div class="top-logo screen light_background">
 			<div class="fullheight ">
 				<div class="logo col-md-6 col-md-offset-3">
@@ -25,22 +27,26 @@
 				</div>
 			</div>
 		</div>
-		<?php if(get_field('content', 'options')) : ?>
-		<div class="red-background screen">
-			<div class="container col-md-8 col-md-offset-2">
-				<?php the_field('content', 'options'); ?>
-			</div>
-		</div>
-		<?php endif; ?>
-		<div class="red_background screen ">
 
+
+		<?php if(get_field('content', 'options')) : ?>
+			<div class="red-background screen">
+				<div class="container col-md-8 col-md-offset-2">
+					<?php the_field('content', 'options'); ?>
+				</div>
+			</div>
+		<?php endif; ?>
+
+
+		<div class="red_background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
 			<blockquote><?php echo get_bloginfo('description'); ?></blockquote>
 			<?php smore_menu(); ?>
 			</div>
 		</div>
-		<div class="light-background screen">
 
+
+		<div class="light_background screen">
 			<h1>Today's Location</h1>
 			<p align="center"><a href="/events/">Take a look at our calendar for our next location.</a></p>
 			<?php
@@ -51,16 +57,14 @@
 				</div>
 			<?php endif; ?>
 		</div>
+
+
 		<div class="brown-background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
 				<h1>Instagram</h1>
 				<?php echo do_shortcode('[instagram-feed]'); ?>
 			</div>
 		</div>
-
-
-
-
 
 
 	</main>
