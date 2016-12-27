@@ -393,9 +393,6 @@ add_filter('body_class', 'add_slug_to_body_class'); // Add slug to body class (S
 add_filter('widget_text', 'do_shortcode'); // Allow shortcodes in Dynamic Sidebar
 add_filter('widget_text', 'shortcode_unautop'); // Remove <p> tags in Dynamic Sidebars (better!)
 add_filter('wp_nav_menu_args', 'my_wp_nav_menu_args'); // Remove surrounding <div> from WP Navigation
-// add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> injected classes (Commented out by default)
-// add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> injected ID (Commented out by default)
-// add_filter('page_css_class', 'my_css_attributes_filter', 100, 1); // Remove Navigation <li> Page ID's (Commented out by default)
 add_filter('the_category', 'remove_category_rel_from_category_list'); // Remove invalid rel attribute
 add_filter('the_excerpt', 'shortcode_unautop'); // Remove auto <p> tags in Excerpt (Manual Excerpts only)
 add_filter('the_excerpt', 'do_shortcode'); // Allows Shortcodes to be executed in Excerpt (Manual Excerpts only)
@@ -414,7 +411,6 @@ function smore_menu() {
 
   if( have_rows('menu_items', 'options') ):
     echo '<div id="menu-list">';
-    echo '<h1>Menu</h1>';
     echo '<div class="col-md-12">';
       echo '<button class="btn btn-default btn-sort sort" data-sort="name">Sort by name</button>';
       echo '<button class="btn btn-default btn-sort sort" data-sort="cost">Sort by cost</button>';
@@ -438,7 +434,6 @@ function smore_menu() {
     echo '</div>';
     echo '</div>';
   else :
-      echo '<h1>Menu</h1>';
       echo '<h2 align="center">Coming Soon!</h2>';
   endif;
 
@@ -446,6 +441,33 @@ function smore_menu() {
 }
 add_shortcode( 'menu', 'smore_menu' );
 
+/*------------------------------------*\
+	WooCommerce Stuff
+\*------------------------------------*/
+
+
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+add_action('woocommerce_before_main_content', 'smore_woo_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'smore_woo_wrapper_end', 10);
+
+function smore_woo_wrapper_start() {
+    echo '<main role="main" class="page">';
+    echo '<div class="top-logo screen light_background">';
+	echo '<section class="container fullheight col-md-10 col-md-offset-1">';
+}
+
+function smore_woo_wrapper_end() {
+    echo '</section>';
+    echo '</div>';
+	echo '</main>';
+}
+
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
 
 /*------------------------------------*\
 	Options Page

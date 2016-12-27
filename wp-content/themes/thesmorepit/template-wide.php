@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 	<main role="main" class="page">
-		<div class="top-logo screen fullheight red_background">
+		<div class="top-logo screen red_background">
 
 			<section class="container col-md-10 col-md-offset-1">
 				<?php
