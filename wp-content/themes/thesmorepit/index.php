@@ -46,8 +46,8 @@
 		</div>
 
 
-		<div class="light_background">
-			<div class="container fullheight col-md-8 col-md-offset-2">
+		<div class="light_background screen">
+			<div class="container col-md-8 col-md-offset-2">
 					<h1>On Sale!</h1>
 					<p align="center"><a href="/events/">Our S'Mores, your cozy home.</a></p>
 					<?php do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
