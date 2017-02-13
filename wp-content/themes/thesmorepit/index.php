@@ -47,26 +47,23 @@
 
 
 		<div class="light_background">
-			<h1>On Sale!</h1>
-			<p align="center"><a href="/events/">Our S'Mores, your cozy home.</a></p>
-			<?php do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
-		</div>
-
-		
-		<?php
-		$location = get_field('current_location', 'options');
-		if( !empty($location) ): ?>
-		<div class="light_background">
-			<h1>Our Current Location</h1>
-			<?php
-			$location = get_field('current_location', 'options');
-			if( !empty($location) ): ?>
-				<div class="acf-map">
-					<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+					<h1>On Sale!</h1>
+					<p align="center"><a href="/events/">Our S'Mores, your cozy home.</a></p>
+					<?php do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
 				</div>
 
-		</div>
-		<?php endif; ?>
+
+				<?php
+				$location = get_field('current_location', 'options');
+				if( !empty($location) ): ?>
+				<div class="light_background screen">
+					<h1>Today's Location</h1>
+					<p align="center"><a href="/events/">Take a look at our calendar for our next location.</a></p>
+						<div class="acf-map">
+							<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+						</div>
+				</div>
+<?php endif; ?>
 
 		<div class="brown-background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
