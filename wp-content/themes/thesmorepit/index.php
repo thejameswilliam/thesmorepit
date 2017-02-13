@@ -32,7 +32,7 @@
 				<div class="light_background screen">
 					<div class="container col-md-8 col-md-offset-2">
 							<h1>On Sale!</h1>
-							<p align="center"><a href="/store/">Our S'Mores, your cozy home.</a></p>
+							<p align="center"><a href="/shop/">Our S'Mores, your cozy home.</a></p>
 							<?php
 							echo apply_filters( 'the_content','[featured_products per_page="4" columns="4"]');
 							//do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
