@@ -2446,7 +2446,6 @@ class GFFormsModel {
 		foreach ( $logic['rules'] as $rule ) {
 			$source_field = RGFormsModel::get_field( $form, $rule['fieldId'] );
 			$field_value  = empty( $lead ) ? self::get_field_value( $source_field, $field_values ) : self::get_lead_field_value( $lead, $source_field );
-
 			$is_value_match = self::is_value_match( $field_value, $rule['value'], $rule['operator'], $source_field, $rule, $form );
 
 			if ( $is_value_match ) {
