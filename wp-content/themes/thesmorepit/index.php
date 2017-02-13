@@ -50,7 +50,9 @@
 			<div class="container col-md-8 col-md-offset-2">
 					<h1>On Sale!</h1>
 					<p align="center"><a href="/events/">Our S'Mores, your cozy home.</a></p>
-					<?php do_shortcode('[recent_products per_page="12" columns="4"]'); ?>
+					<?php
+					echo apply_filters( 'the_content','[featured_products per_page="4" columns="4"]');
+					//do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
 			</div>
 		</div>
 
