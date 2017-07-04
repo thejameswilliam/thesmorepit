@@ -8,7 +8,7 @@
 						<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-2')) ?>
 					</div>
 					<div class="col-md-4">
-						<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-2')) ?>
+						<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-3')) ?>
 					</div>
 				</div>
 				<!-- copyright -->

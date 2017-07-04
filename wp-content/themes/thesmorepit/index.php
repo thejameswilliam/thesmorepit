@@ -31,11 +31,17 @@
 
 				<div class="light_background screen">
 					<div class="container col-md-8 col-md-offset-2">
-							<h1>On Sale!</h1>
-							<p align="center"><a href="/shop/">Our S'Mores, your cozy home.</a></p>
+							<h1>Featured S'Mores</h1>
+							<p align="center"><a class="btn btn-primary" href="/the-smore-shoppe/">The S'More Shop</a></p>
+
+							<div class="col-sm-12">
+								<p align="center"><small>*Delivery available for Santa Fe and select surrounding areas. New Mexico customers, please arrange for pick-up.</small></p>
+							</div>
+							<div class="col-sm-12">
 							<?php
 							echo apply_filters( 'the_content','[featured_products per_page="4" columns="4"]');
 							//do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
+							</div>
 					</div>
 				</div>
 
