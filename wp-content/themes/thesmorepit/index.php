@@ -43,14 +43,14 @@
 	// check if the repeater field has rows of data
 	if( have_rows('front_page_images', 'options') ): ?>
 	<div class="dark-background screen ">
-		<div class="container col-md-8 col-md-offset-2">
+		<div class="container front-images col-md-8 col-md-offset-2">
 			<div class="row">
 				<?php
 				while ( have_rows('front_page_images', 'options') ) : the_row();
 				$image = get_sub_field('image');
 				$img_url = mapi_thumb($image['url'], 400, 280, 90);
 				?>
-				<div class="col-xs-4 front-images">
+				<div class="col-xs-4 front-image">
 					<img src="<?php echo $img_url; ?>" alt="<?php echo $image['title']; ?>" />
 				</div>
 
