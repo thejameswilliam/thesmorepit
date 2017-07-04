@@ -55,7 +55,7 @@
 					</div>
 
     		<?php endwhile;
-				echo '</div>'
+				echo '</div>';
 				endif;
 					?>
 			</div>
