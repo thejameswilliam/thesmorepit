@@ -37,16 +37,16 @@
 			</div>
 		</div>
 	<?php endif; ?>
-	
+
 
 	<?php
 	// check if the repeater field has rows of data
-	if( have_rows('home_page_images', 'options') ): ?>
+	if( have_rows('front_page_images', 'options') ): ?>
 	<div class="red_background screen ">
 		<div class="container col-md-8 col-md-offset-2">
 			<div class="row">'
 				<?php
-				while ( have_rows('home_page_images', 'options') ) : the_row();
+				while ( have_rows('front_page_images', 'options') ) : the_row();
 				$image = get_sub_field('image');
 				$img_url = mapi_thumb($image['url'], 400, 280, 90);
 				?>
