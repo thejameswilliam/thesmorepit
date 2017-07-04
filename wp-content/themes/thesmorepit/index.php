@@ -23,7 +23,7 @@
 					'twitter',
 					'instagram',
 				);
-				mapi_social_links($networks); ?>
+				mapi_social_links($networks, 'follow'); ?>
 			</div>
 		</div>
 	</div>

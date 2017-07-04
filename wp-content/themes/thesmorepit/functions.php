@@ -401,39 +401,35 @@ add_filter('image_send_to_editor', 'remove_thumbnail_dimensions', 10); // Remove
 // Remove Filters
 remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
 
-// Shortcodes above would be nested like this -
-
 function smore_menu() {
 
   if( have_rows('menu_items', 'options') ):
-    echo '<div id="menu-list">';
-    echo '<div class="col-md-12">';
-      echo '<button class="btn btn-default btn-sort sort" data-sort="name">Sort by name</button>';
-      echo '<button class="btn btn-default btn-sort sort" data-sort="cost">Sort by cost</button>';
-    echo '</div>';
-    echo '<div class="menu_items col-md-12 list" >';
+    echo '<div id="menu-list" class="row">';
+      echo '<div class="col-md-12">';
+        echo '<button class="btn btn-default btn-sort sort" data-sort="name">Sort by name</button>';
+        echo '<button class="btn btn-default btn-sort sort" data-sort="cost">Sort by cost</button>';
+      echo '</div>';
+      echo '<div class="menu_items col-md-12 list">';
 
     // loop through the rows of data
-      while ( have_rows('menu_items', 'options') ) : the_row();
+    while ( have_rows('menu_items', 'options') ) : the_row();
         echo '<div class="menu-item">';
-        $name = get_sub_field('item_name', 'options');
-        $cost = get_sub_field('item_cost', 'options');
-        $desc = get_sub_field('item_description', 'options');
-        ?>
-          <span class="name alignleft"><?php echo $name; ?></span> <span class="cost alignright"><?php echo $cost; ?></span>
-          <span class="desc alignleft"><?php echo $desc; ?></span>
+          $name = get_sub_field('item_name', 'options');
+          $cost = get_sub_field('item_cost', 'options');
+          $desc = get_sub_field('item_description', 'options');
+    ?>
+    <span class="name alignleft"><?php echo $name; ?></span>
+    <span class="cost alignright"><?php echo $cost; ?></span>
+    <span class="desc alignleft"><?php echo $desc; ?></span>
 
-        <?php
-        echo '</div>';
-          // display a sub field value
-      endwhile;
+    <?php
     echo '</div>';
+  endwhile;
     echo '</div>';
+  echo '</div>';
   else :
-      echo '<h2 align="center">Coming Soon!</h2>';
+    echo '<h2 align="center">Coming Soon!</h2>';
   endif;
-
-
 }
 add_shortcode( 'menu', 'smore_menu' );
 
