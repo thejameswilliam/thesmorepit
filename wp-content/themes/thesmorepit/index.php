@@ -29,23 +29,6 @@
 		</div>
 
 
-				<div class="light_background screen">
-					<div class="container col-md-8 col-md-offset-2">
-							<h1>Featured S'Mores</h1>
-							<p align="center"><a class="btn btn-primary" href="/the-smore-shoppe/">The S'More Shop</a></p>
-
-							<div class="col-sm-12">
-								<p align="center"><small>*Delivery available for Santa Fe and select surrounding areas. New Mexico customers, please arrange for pick-up.</small></p>
-							</div>
-							<div class="col-sm-12">
-							<?php
-							echo apply_filters( 'the_content','[featured_products per_page="4" columns="4"]');
-							//do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
-							</div>
-					</div>
-				</div>
-
-
 
 		<?php if(get_field('content', 'options')) : ?>
 			<div class="red_background screen">
@@ -58,24 +41,47 @@
 
 		<div class="red_background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
-			<blockquote><?php echo get_bloginfo('description'); ?></blockquote>
-			<?php smore_menu(); ?>
+			<?php
+
+			// check if the repeater field has rows of data
+			if( have_rows('home_page_images', 'options') ):
+				echo '<div class="row">';
+    		while ( have_rows('home_page_images', 'options') ) : the_row();
+        $image = get_sub_field('image');
+				$img_url = mapi_thumb($image['url'], 400, 280, 90);
+				?>
+					<div class="col-xs-4">
+						<img src="<?php echo $img_url; ?>" alt="<?php echo $image['title']; ?>" />
+					</div>
+
+    		<?php endwhile;
+				echo '</div>'
+				endif;
+					?>
 			</div>
 		</div>
 
 
 
-				<?php
-				$location = get_field('current_location', 'options');
-				if( !empty($location) ): ?>
-				<div class="light_background screen">
-					<h1>Today's Location</h1>
-					<p align="center"><a href="/events/">Take a look at our calendar for our next location.</a></p>
-						<div class="acf-map">
-							<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+						<div class="light_background screen">
+							<div class="container col-md-8 col-md-offset-2">
+									<h1>Featured S'Mores</h1>
+									<p align="center"><a class="btn btn-primary" href="/the-smore-shoppe/">The S'More Shoppe</a></p>
+
+									<div class="col-sm-12">
+										<p align="center"><small>*Delivery available for Santa Fe and select surrounding areas. New Mexico customers, please arrange for pick-up.</small></p>
+									</div>
+									<div class="col-sm-12">
+									<?php
+									echo apply_filters( 'the_content','[featured_products per_page="4" columns="4"]');
+									//do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
+									</div>
+							</div>
 						</div>
-				</div>
-<?php endif; ?>
+
+
+
+
 
 		<div class="brown-background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
