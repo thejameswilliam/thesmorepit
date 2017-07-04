@@ -42,9 +42,9 @@
 	<?php
 	// check if the repeater field has rows of data
 	if( have_rows('front_page_images', 'options') ): ?>
-	<div class="red_background screen ">
+	<div class="light_background screen ">
 		<div class="container col-md-8 col-md-offset-2">
-			<div class="row">'
+			<div class="row">
 				<?php
 				while ( have_rows('front_page_images', 'options') ) : the_row();
 				$image = get_sub_field('image');
