@@ -18,7 +18,7 @@
 			</footer>
 			<div class="copyright fluid-container">
 				&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <br />
-				<a href="http//thejameswilliam.com" title="Designed by">Designed By: James W. Johnson.</a>
+				<a href="http://thejameswilliam.com" title="Designed by">Designed By: James W. Johnson.</a>
 			</div>
 			<!-- /footer -->
 
