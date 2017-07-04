@@ -42,7 +42,7 @@
 	<?php
 	// check if the repeater field has rows of data
 	if( have_rows('front_page_images', 'options') ): ?>
-	<div class="light_background screen ">
+	<div class="dark-background screen ">
 		<div class="container col-md-8 col-md-offset-2">
 			<div class="row">
 				<?php
@@ -82,7 +82,7 @@
 
 
 
-		<div class="brown-background screen ">
+		<div class="red_background screen ">
 			<div class="container fullheight col-md-8 col-md-offset-2">
 				<h1>Instagram</h1>
 				<?php echo do_shortcode('[instagram-feed]'); ?>
