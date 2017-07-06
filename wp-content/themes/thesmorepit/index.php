@@ -64,9 +64,10 @@
     <div class="light_background screen">
         <div class="container col-md-8 col-md-offset-2">
             <p align="center"><a class="btn btn-primary btn-lg" href="/the-smore-shoppe/">The S'More Shoppe</a></p>
-            <hr />
+
 
             <?php if(get_field('product_id', 'options')) : ?>
+                <hr />
                 <h1>Featured S'More</h1>
                 <div class="col-sm-12">
                     <p align="center">
