@@ -65,15 +65,16 @@
         <div class="container col-md-8 col-md-offset-2">
             <p align="center"><a class="btn btn-primary btn-lg" href="/the-smore-shoppe/">The S'More Shoppe</a></p>
             <hr />
-            <h1>Featured S'More</h1>
-            <div class="col-sm-12">
-                <p align="center">
-                    <small>*Delivery available for Santa Fe and select surrounding areas. New Mexico customers, please
-                        arrange for pick-up.
-                    </small>
-                </p>
-            </div>
+
             <?php if(get_field('product_id', 'options')) : ?>
+                <h1>Featured S'More</h1>
+                <div class="col-sm-12">
+                    <p align="center">
+                        <small>*Delivery available for Santa Fe and select surrounding areas. New Mexico customers, please
+                            arrange for pick-up.
+                        </small>
+                    </p>
+                </div>
             <div class="col-sm-12">
                 <div class="row">
                     <?php
